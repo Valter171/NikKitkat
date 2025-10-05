@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-python-app
+    env: python
+    buildCommand: poetry install --no-root
+    startCommand: poetry run python main.py
