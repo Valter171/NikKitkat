@@ -11,7 +11,7 @@ import sys
 import os
 
 try:
-    BOT_TOKEN = "ТОКЕН"
+    BOT_TOKEN = "8436894520:AAFmj5pzZJwKojRF-Di67ziEhO9KvJLbct8"
     ADMIN_IDS = [476779787]
     API_URL = "https://giftsbattle.com/api/v1"
 
