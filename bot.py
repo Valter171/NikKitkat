@@ -12,7 +12,7 @@ import os
 
 try:
     BOT_TOKEN = "ТОКЕН"
-    ADMIN_IDS = [АЙДИ]
+    ADMIN_IDS = [476779787]
     API_URL = "https://giftsbattle.com/api/v1"
 
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
