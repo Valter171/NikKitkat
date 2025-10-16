@@ -18,7 +18,7 @@ try:
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     logger = logging.getLogger(__name__)
 
-    bot = telebot.TeleBot(BOT_TOKEN)
+    bot = telebot.TeleBot("8436894520:AAFmj5pzZJwKojRF-Di67ziEhO9KvJLbct8")
 
     class AccountManager:
         def __init__(self):
