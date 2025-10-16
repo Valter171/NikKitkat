@@ -144,8 +144,10 @@ try:
                 return {'success': False, 'error': str(e)}
 
     giftbattle_api = GiftBattleAPI()
-
+    account_manager = AccountManager()
 # --- Account token checker & admin commands ---
+except Exception as e:
+       logger.error(f"Ошибка при инициализации: {e}")
 def mark_token_invalid(token):
     try:
         cur = account_manager.conn.cursor()
