@@ -11,8 +11,8 @@ import sys
 import os
 
 try:
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
-    ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
+    BOT_TOKEN = os.getenv("8436894520:AAFmj5pzZJwKojRF-Di67ziEhO9KvJLbct8")
+    ADMIN_IDS = [int(x) for x in os.getenv("6563109681,476779787", "").split(",") if x.strip()]
     API_URL = os.getenv("API_URL", "https://giftsbattle.com/api/v1")
 
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
