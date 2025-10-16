@@ -461,4 +461,12 @@ def run_bot():
             time.sleep(5)
 
 if __name__ == "__main__":
+      import time
+    while True:
+        try:
+            logger.info("Запуск бота...")
+            bot.polling(non_stop=True, skip_pending=True, timeout=30)
+        except Exception as e:
+            logger.error(f"Ошибка polling: {e}")
+            time.sleep(5)
     run_bot()
